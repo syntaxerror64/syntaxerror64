@@ -1,0 +1,50 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    box-sizing: border-box;
+}
+header{
+    margin-top: 27px;
+}
+div.wrapper{
+    width: 1200px;
+    position: absolute;
+    margin: 0 auto;
+    height: 50px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+}
+div#start_sheet{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/first_bg.png") no-repeat center/cover;
+    z-index: -1;
+}
+div#logo{
+    float: left;
+}
+div#nav{
+    float: right;
+    height: 40px;
+    list-style-type: none;
+}
+.menu li{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.menu li{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.menu li.menu_icon{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
